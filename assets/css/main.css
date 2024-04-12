@@ -13,6 +13,11 @@
 }
 
 
+.book-widget {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
 
 
 html, body, div, span, applet, object,
@@ -3426,7 +3431,7 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
-			vertical-align: middle;
+			
 			width: 7em;
 		}
 
