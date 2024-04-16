@@ -18,6 +18,34 @@
     padding-bottom: 20px;
 }
 
+.room-types {
+	display: flex;
+	flex-direction: column;
+	gap: 20px; /* Space between different room types */
+  }
+  
+  .room-type {
+	border: 1px solid #ccc; /* Visual separation */
+	padding: 20px;
+  }
+  
+  .room-type h2 {
+	margin-bottom: 15px; /* Space between the title and the images */
+  }
+  
+  .images {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); /* Creates a responsive grid */
+	gap: 10px; /* Space between images */
+  }
+  
+  .images img {
+	width: 100%; /* Each image will take up the full width of its cell */
+	height: auto; /* Maintain aspect ratio */
+	object-fit: cover; /* Adjust as needed to control how images fit in their cell */
+  }
+  
+  
 
 
 html, body, div, span, applet, object,
