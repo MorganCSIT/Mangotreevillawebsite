@@ -1,107 +1,172 @@
-<!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Generic - Spectral by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload"> 
+  <head>
+    <title>Beach Front Villa Rooms - Spectral by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <style>
+      .room-section {
+        margin-top: 20px;
+        padding: 20px;
+        background: #f8f8f8;
+        border-radius: 10px;
+        clear: both;
+      }
+      .room {
+        position: relative;
+        margin: 10px;
+        text-align: center;
+        float: left;
+        width: 31%;
+        cursor: pointer;
+      }
+      .room img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        transition: 0.3s;
+      }
+      .details-button {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        text-decoration: none;
+        display: inline-block;
+      }
+      @media (max-width: 768px) {
+        .room {
+          float: none;
+          width: 100%; /* Stacks images vertically on smaller screens */
+        }
+      }
+    </style>
+  </head>
+  <body class="is-preload">
+    <div id="page-wrapper">
+      <header id="header">
+        <h1><a href="index.html">Spectral</a></h1>
+        <nav id="nav">
+          <ul>
+            <li class="special">
+              <a href="#menu" class="menuToggle"><span>Menu</span></a>
+              <div id="menu">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="generic.html">Generic</a></li>
+                  <li><a href="elements.html">Elements</a></li>
+                  <li><a href="#">Sign Up</a></li>
+                  <li><a href="#">Log In</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+      <article id="main">
+        <header>
+          <h2>Beach Front Villa Rooms</h2>
+          <p>Explore our diverse room types across two floors</p>
+        </header>
+        <section class="wrapper style5">
+          <div class="inner">
+            <h3>Lorem ipsum dolor</h3>
+            <p>
+              Morbi mattis mi consectetur tortor elementum, varius pellentesque
+              velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
+              scelerisque ipsum tempor.
+            </p>
+            <div class="roomtypes-container">
+              <div class="room-section">
+                <h3>Front Top Floor Rooms</h3>
+                <div class="room">
+                  <img src="images/u1.jpg" alt="Top Floor Room 1" />
+                  <a href="link-to-room-details.html" class="details-button"
+                    >Check Availability</a
+                  >
+                </div>
+                <div class="room">
+                  <img src="images/u2.jpg" alt="Top Floor Room 2" />
+                  <a href="link-to-room-details.html" class="details-button"
+                    >Check Availability</a
+                  >
+                </div>
+              </div>
+              <div class="room-section">
+                <h3>Front Bottom Floor Rooms</h3>
+                <div class="room">
+                  <img src="images/d1.jpg" alt="Top Floor Room 1" />
+                  <a href="link-to-room-details.html" class="details-button"
+                    >Check Availability</a
+                  >
+                </div>
+                <div class="room">
+                  <img src="images/d2.jpg" alt="Top Floor Room 2" />
+                  <a href="link-to-room-details.html" class="details-button"
+                    >Check Availability</a
+                  >
+                </div>
+              </div>
+              <div class="room-section">
+                <h3>Back rooms</h3>
+                <div class="room">
+                  <img src="images/u3.jpg" alt="Top Floor Room 1" />
+                  <a href="link-to-room-details.html" class="details-button"
+                    >Check Availability</a
+                  >
+                </div>
+                <div class="room">
+                  <img src="images/u4.jpg" alt="Top Floor Room 2" />
+                  <a href="link-to-room-details.html" class="details-button"
+                    >Check Availability</a
+                  >
+                </div>
+                <div class="room">
+                  <img src="images/db.jpg" alt="Top Floor Room 2" />
+                  <a href="link-to-room-details.html" class="details-button"
+                    >Check Availability</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
 
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">Spectral</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Main -->
-					<article id="main">
-						<header>
-						<h2>1 villa</h2>
-							<p>4 types of rooms</p>
-						</header>
-						<section class="wrapper style5">
-							<div class="inner">
-
-								<h3>Selection</h3>
-								<p>We offer 4 different types of rooms to cater to our guests needs</p>
-
-								<div class="room-types">
-									<!-- Room Type 1 -->
-									<div class="room-type">
-									  <h2>Room Type 1</h2>
-									  <div class="images">
-										<img src="./images/pic02.JPG" alt="Room Type 1 Image 1">
-										<img src="./images/pic02.JPG" alt="Room Type 1 Image 2">
-										<img src="./images/pic02.JPG" alt="Room Type 1 Image 3">
-									  </div>
-									</div>
-								  
-									<!-- Repeat for other room types... -->
-								  
-								  </div>
-
-								<p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
-
-								<hr />
-
-								<h4>Feugiat aliquam</h4>
-								<p>Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat.</p>
-
-								<p>Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui, at vestibulum sit amet, auctor bibendum neque.</p>
-
-							</div>
-						</section>
-					</article>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+      <footer id="footer">
+        <ul class="icons">
+          <li>
+            <a href="#" class="icon brands fa-facebook-f"
+              ><span class="label">Facebook</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-instagram"
+              ><span the="label">Instagram</span></a
+            >
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li>&copy; Untitled</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

@@ -6,6 +6,47 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+/* Clearfix solution */
+.inner:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Adding bottom padding to the main content container */
+.inner {
+  padding-bottom: 50px; /* Adjust the value based on your design needs */
+}
+
+/* New header style for room categories */
+.room-section h3 {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Light background for readability */
+  color: #333; /* Darker text color for contrast */
+  text-transform: uppercase; /* Uppercase text for stylistic choice */
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for a lifting effect */
+  margin-top: 2em; /* Ensure separation from previous sections */
+  position: relative; /* Position relative for pseudo-elements */
+}
+
+/* Adding a pseudo-element for a decorative accent */
+.room-section h3:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 5px;
+  height: 70%;
+  background-color: #21b2a6; /* Theme accent color */
+  border-radius: 3px;
+  transform: translateY(-50%);
+}
 
 .fruitrooms li {
   display: inline-block;
