@@ -12,7 +12,12 @@
   display: table;
   clear: both;
 }
-
+.calendar-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
 /* Adding bottom padding to the main content container */
 .inner {
   padding-bottom: 50px; /* Adjust the value based on your design needs */
