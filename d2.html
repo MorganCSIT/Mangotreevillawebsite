@@ -71,14 +71,21 @@
         <section class="wrapper style5">
           <div class="inner">
             <div class="calendar-center">
-              <div id="bookWidget-104579-136057-303573-1713356612"></div>
+              <!-- Place this div on your page where you want the widget to show -->
+              <div id="bookWidget-104579-136057-303581-1713969963"></div>
+
+              <!-- The following will initialize the widget in the above div -->
               <script>
                 jQuery(document).ready(function () {
                   jQuery(
-                    "#bookWidget-104579-136057-303573-1713356612"
+                    "#bookWidget-104579-136057-303581-1713969963"
                   ).bookWidget({
-                    roomid: 303573,
+                    roomid: 303581,
+                    defaultNumAdult: 2,
+                    defaultNumNight: 2,
                     formAction: "https://beds24.com/booking.php",
+                    referer: "morgan",
+                    unavailableBackgroundColor: "#f4b0b0",
                     widgetLang: "en",
                     widgetType: "AvailabilityCalendar",
                     width: "350px",
