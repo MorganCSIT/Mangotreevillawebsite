@@ -54,6 +54,24 @@
   }
 }
 
+/* Additional responsive image styling */
+.image.fit > img {
+  width: 100%; /* Makes image width responsive */
+  height: auto;
+  border-radius: 3%; /* Keeps the aspect ratio intact */
+}
+/* Ensures that container elements are also responsive */
+.row.gtr-uniform > .col-6 {
+  flex: 1 1 50%; /* Flex grow, flex shrink, flex basis */
+  padding: 5px; /* Adjust padding as needed */
+}
+
+.room-booking {
+  background-color: #a4d0fc;
+  border-radius: 1%;
+  padding: 5%;
+}
+
 .inner:after {
   content: "";
   display: table;
