@@ -6,6 +6,8 @@
 -->
 <html>
   <head>
+    <link rel="icon" type="image/png" href="images/mangologo.png" />
+
     <title>★MangoTreeVilla★</title>
     <meta charset="utf-8" />
     <meta
@@ -40,6 +42,7 @@
                   <li><a href="index.html">Home</a></li>
                   <li><a href="roomtypes.html">View Rooms</a></li>
                   <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
                   <li>
                     <a href="https://mtv-maps.vercel.app/map/1">Map Guide</a>
                   </li>
@@ -81,6 +84,29 @@
                   });
                 });
               </script>
+            </div>
+            <div class="inner">
+              <!-- Dropdown Navigation for Rooms -->
+              <div style="text-align: center; margin-bottom: 20px">
+                <select
+                  onchange="location = this.value;"
+                  style="
+                    padding: 10px;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    border: 1px solid #ddd;
+                  "
+                >
+                  <option value="#">Select Another Room</option>
+                  <option value="u1.html">Second Floor Seaview Room 1</option>
+                  <option value="u2.html">Second Floor Seaview Room 2</option>
+                  <option value="d1.html">Ground Floor Seaview Room 1</option>
+                  <option value="d2.html">Ground Floor Seaview Room 2</option>
+                  <option value="u3.html">Beach & Pool Access Room 1</option>
+                  <option value="u4.html">Beach & Pool Access Room 2</option>
+                  <option value="db.html">Beach & Pool Access Room 3</option>
+                </select>
+              </div>
             </div>
             <div class="box alt">
               <div class="row gtr-50 gtr-uniform">
